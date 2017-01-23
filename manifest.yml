@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SGDemo1
+  host: SGDemo1
+  disk_quota: 1024M
+  services:
+  - SGDemo1-cloudantNoSQLDB
